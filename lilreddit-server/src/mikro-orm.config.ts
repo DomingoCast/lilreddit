@@ -1,6 +1,5 @@
 import { MikroORM } from "@mikro-orm/core";
 import path from "path";
-import { pathToFileURL } from "url";
 import { __prod__ } from "./constants";
 import { Post } from "./entities/Post";
 
